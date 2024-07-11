@@ -336,7 +336,9 @@ img{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: #4d5ae5;;
+    background-color: #4d5ae5;
+    margin-left: 16px;
+    margin-top: 8px;
 }
 
 .icon{
