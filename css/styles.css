@@ -208,6 +208,10 @@ img{
     width: 264px;
     height: 112px;
     background-color: #f4f4fd;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
 
