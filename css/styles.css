@@ -385,6 +385,10 @@ img{
     width:calc ((100% - 48px)/3);
 }
 
+.section-four-list-item:hover .section-four-list-text{
+    transform: translateY(0);
+}
+
 .section-four-content{
     margin-bottom: 72px;
     font-weight: 700;
@@ -413,6 +417,29 @@ img{
     color: #434455; 
 }
 
+
+.section-four-list-text{
+    position: absolute;
+    top: 0px;
+    background-color: #4d5ae5;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    padding-top: 40px;
+    padding-right: 32px;
+    padding-bottom: 164px;
+    padding-left: 32px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.thumb{
+    position: relative;
+    overflow: hidden;
+}
 
 
 /*fotter*/
