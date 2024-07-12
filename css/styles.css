@@ -525,3 +525,8 @@ img{
 .footer-soc-container{
     display: flex;
 }
+
+.footer-container{
+  display: flex;  
+}
+
