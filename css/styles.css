@@ -383,10 +383,14 @@ img{
 
 .section-four-list-item{
     width:calc ((100% - 48px)/3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .section-four-list-item:hover .section-four-list-text{
     transform: translateY(0);
+    box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .section-four-content{
@@ -422,18 +426,15 @@ img{
     position: absolute;
     top: 0px;
     background-color: #4d5ae5;
-    color: #FFFFFF;
+    color:  #f4f4fd;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    padding-top: 40px;
-    padding-right: 32px;
-    padding-bottom: 164px;
-    padding-left: 32px;
+    padding: 40px 32px;
     height: 100%;
     transform: translateY(100%);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .thumb{
