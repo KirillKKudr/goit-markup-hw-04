@@ -492,7 +492,7 @@ img{
 
 .footer-icon-list{
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
 }
 
@@ -525,6 +525,7 @@ img{
 
 .footer-text-container{
     margin-right: 120px;
+    align-items: baseline;
 }
 
 
