@@ -484,9 +484,10 @@ img{
 .footer-soc-text{
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.50;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .footer-icon-list{
@@ -522,9 +523,11 @@ img{
     background-color: #31d0aa;;
 }
 
-.footer-soc-container{
-    display: flex;
+.footer-text-container{
+    margin-right: 120px;
 }
+
+
 
 .footer-container{
   display: flex;  
