@@ -525,12 +525,13 @@ img{
 
 .footer-text-container{
     margin-right: 120px;
-    align-items: baseline;
+    
 }
 
 
 
 .footer-container{
   display: flex;  
+  align-items: baseline;
 }
 
